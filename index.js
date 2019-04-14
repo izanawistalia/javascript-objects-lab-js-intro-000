@@ -14,6 +14,7 @@ function destructiveltDeleteFromObjectByKey(object, key){
   //return object;
 }
 function destructivelyUpdateObjectWithkeyAndValue(object, key, value){
-  return Object.assign(object, {[key]: value});
+  object[key] = value
+  return object
 }
 var recipes = { sauce : 'tomato',  powder : 'milk'};
