@@ -13,4 +13,4 @@ function destructiveltDeleteFromObjectByKey(object, key){
   delete object[key];
   return object;
 }
-var recipes = { sauce : 'tomato'; powder : 'milk'};
+var recipes = { sauce : 'tomato',  powder : 'milk'};
