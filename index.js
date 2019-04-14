@@ -10,7 +10,7 @@ function deleteFromObjectByKey(object, key){
   return newObj;
 }
 function destructiveltDeleteFromObjectByKey(object, key){
-  delete object.key;
-  return object;
+  return delete object[key];
+  //return object;
 }
 var recipes = { sauce : 'tomato',  powder : 'milk'};
